@@ -34,6 +34,7 @@ WEEK 2
 
 WEEK 3
 - An  individual  trajectory  of a TS corresponds  to  a realization of  a stochastic  process. The  set  of  all  possible trajectories is called the ensemble
+- Stochastic Process: Family
 𝑀𝑒𝑎𝑛𝐹𝑢𝑛𝑐𝑡𝑖𝑜𝑛:𝜇(𝑡)≡𝜇𝑡≡𝐸[𝑋(𝑡)] also written 𝐸[𝑋𝑡]
 𝑉𝑎𝑟𝑖𝑎𝑛𝑐𝑒𝐹𝑢𝑛𝑐𝑡𝑖𝑜𝑛:𝜎2(𝑡)≡𝜎𝑡2≡𝑉[𝑋(𝑡)] also written 𝑉[𝑋𝑡]
 𝐴𝑢𝑡𝑜𝑐𝑜𝑣𝑎𝑟𝑖𝑎𝑛𝑐𝑒𝐹𝑢𝑛𝑐𝑡𝑖𝑜𝑛:𝛾(𝑡1,𝑡2)≡𝐸[(𝑋(𝑡1)−𝜇(𝑡1))(𝑋(𝑡2)−𝜇(𝑡2))]
@@ -47,3 +48,4 @@ WEEK 3
 - Correlation does not tell us about the steepness of the slope
 - Correlation = Covariance(X,Y) / (sqrt(var(X)) * sqrt(var(Y)))
 - R-squared --> how much of the variance in the data is explained by the model
+- Weak stationarity: constant mean  and Autocovariance Function only depends on lag spacing
